@@ -1,10 +1,10 @@
-# film-ratings
+# ratings
 
-FIXME: description
+A server side web app built using Clojure and Duct framework.
 
-## Developing
+**Why Duct?** It is a modular framework. Easy to build a server side web app and manage the necessary modules.
 
-### Setup
+## Setup
 
 When you first clone this repository, run:
 
@@ -14,8 +14,6 @@ lein duct setup
 
 This will create files for local configuration, and prep your system
 for the project.
-
-### Environment
 
 To begin developing, start with a REPL.
 
@@ -29,7 +27,6 @@ Then load the development environment.
 user=> (dev)
 :loaded
 ```
-
 Run `go` to prep and initiate the system.
 
 ```clojure
@@ -64,7 +61,3 @@ But you can also run tests through Leiningen.
 ```sh
 lein test
 ```
-
-## Legal
-
-Copyright © 2020 FIXME
