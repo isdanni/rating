@@ -6,27 +6,18 @@ A server side web app built using Clojure and Duct framework.
 
 ## Setup
 
-When you first clone this repository, run:
+After clone to local:
 
 ```sh
 lein duct setup
-```
-
-This will create files for local configuration, and prep your system
-for the project.
-
-To begin developing, start with a REPL.
-
-```sh
 lein repl
 ```
-
-Then load the development environment.
 
 ```clojure
 user=> (dev)
 :loaded
 ```
+
 Run `go` to prep and initiate the system.
 
 ```clojure
