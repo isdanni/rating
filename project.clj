@@ -1,6 +1,6 @@
-(defproject film-ratings "0.1.0-SNAPSHOT"
+(defproject ratings "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+  :url "http://ratings.com/FIXME"
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [duct/core "0.7.0"]
@@ -10,7 +10,7 @@
                  [duct/module.web "0.7.0"]
                  [org.xerial/sqlite-jdbc "3.27.2"]]
   :plugins [[duct/lein-duct "0.12.1"]]
-  :main ^:skip-aot film-ratings.main
+  :main ^:skip-aot ratings.main
   :resource-paths ["resources" "target/resources"]
   :prep-tasks     ["javac" "compile" ["run" ":duct/compiler"]]
   :middleware     [lein-duct.plugin/middleware]
