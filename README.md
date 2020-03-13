@@ -2,7 +2,11 @@
 
 A server side web app built using Clojure and Duct framework.
 
-**Why Duct?** It is a modular framework. Easy to build a server side web app and manage the necessary modules.
+### Why Duct?
+
+- [link](https://github.com/duct-framework/core)
+- It is a **modular** framework. 
+- Easy to build & efficient to manage different modules.
 
 ## Setup
 
