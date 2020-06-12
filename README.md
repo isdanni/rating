@@ -1,4 +1,4 @@
-# ratings
+# rating
 
 A server side web app built using Clojure and Duct framework.
 
@@ -49,6 +49,7 @@ time.
 ```clojure
 dev=> (test)
 ...
+
 ```
 
 But you can also run tests through Leiningen.
