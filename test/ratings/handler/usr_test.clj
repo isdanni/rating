@@ -9,3 +9,9 @@
     (let [handler  (ig/init-key :ratings.handler/usr {})
           response (handler (mock/request :get "/usr"))]
       (is (= :ataraxy.response/ok (first response)) "response ok"))))
+
+(deftest smoke-test
+  (testing "not available"
+    (let [handler  (ig/init-key :ratings.handler/post {})
+          response (handler (mock/request :get "/post"))]
+      (is (= :ataraxy.response/ok (first response)) "response ok"))))
